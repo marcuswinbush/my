@@ -90,7 +90,16 @@ return(
 
 </div>
 
+<div className='featured-products'>
+<div className='image-div'>
+<img className="bg-cover" src='/Images/discount-ad.png' alt='Fall Collection'></img>
+</div>
 
+</div>
+
+<div className='image-div'>
+<img className="bg-cover" src='/Images/img3.png' alt='Fall Collection'></img>
+</div>
 
 </main>
 

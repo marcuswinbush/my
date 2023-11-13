@@ -73,7 +73,8 @@ justify-content: center;
 .image-div{
   z-index: 1;
   position: static;
-  max-width: 830px;
+  max-width: 870px;
+  margin-top: 5rem;
   align-items: center;
 overflow: hidden;
 }
@@ -99,4 +100,9 @@ overflow: hidden;
 .item {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.featured-products{
+  margin-top: 2rem;
+  
 }
