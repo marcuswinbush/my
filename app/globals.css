@@ -106,3 +106,17 @@ overflow: hidden;
   margin-top: 2rem;
   
 }
+
+
+
+.footer-section{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.footer-item {
+  width: 100%;
+}
+.footer-ul{
+  margin-top: 10px;
+}
