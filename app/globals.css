@@ -62,7 +62,10 @@ display: flex;
 
 .search-container{
   display: flex;
-  float: right;
+ float: right;
+  transform: translateY(-20px);
+  cursor: pointer;
+  margin-right: 11rem;
 }
 .main-container{
 display: grid;
@@ -80,8 +83,7 @@ overflow: hidden;
 }
 
 .button-container{
-  width: 830px;
-  
+  width: 843px;
   position: absolute;
   display: flex;
   justify-content: center;

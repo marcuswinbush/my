@@ -93,12 +93,18 @@ return(
 <div className='featured-products'>
 <div className='image-div'>
 <img className="bg-cover" src='/Images/discount-ad.png' alt='Fall Collection'></img>
+<div className='button-container'>
+    <button className=' bg-white hover:bg-white/90 rounded-sm p-1'>Shop Now</button>
+    </div>
 </div>
 
 </div>
 
 <div className='image-div'>
 <img className="bg-cover" src='/Images/img3.png' alt='Fall Collection'></img>
+<div className='button-container'>
+    <button className=' bg-white hover:bg-white/90 rounded-sm p-1'>Shop Now</button>
+    </div>
 </div>
 
 </main>
