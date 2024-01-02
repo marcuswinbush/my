@@ -40,10 +40,7 @@ const Header = () => {
             <li className="cateogory-items">Sale</li>
             <li className="cateogory-items">Services</li>
        </ul>
-       
-       <div className="search-container">
-                <div className="search"><BsSearch/></div>
-            </div>
+
        
     </section>
 </div>
