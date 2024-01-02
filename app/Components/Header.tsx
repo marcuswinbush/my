@@ -1,13 +1,20 @@
 import React from "react";
 import '/app/globals.css';
+import Link from "next/link";
 import {FaBars} from 'react-icons/fa';
 import {CgProfile} from 'react-icons/cg';
 import {BsSearch} from 'react-icons/bs';
 import {AiOutlineHeart, AiOutlineShoppingCart} from 'react-icons/ai';
 
 
+
+
+
+
 const Header = () => {
-    return (
+
+
+    return ( 
 <div className="bg-white  justify-center p-5 shadow-md" >
     <main className="w-full flex justify-between">
         <div className="left-icons">
@@ -16,7 +23,7 @@ const Header = () => {
         <p className="left-item"> Find a store nearby</p>
         </div>
        <div className="right-icons">
-       <li className="right-item"><CgProfile className="fill-black text-xl mx-2"/><p>Sign in</p></li>
+       <li className="right-item"><CgProfile className="fill-black text-xl mx-2"/><Link href='pages/Login'><p>Sign Up</p></Link></li>
        <li className="right-item"><AiOutlineHeart className='fill-black text-xl mx-2'/><p>Favorites</p></li>
        <li className="right-item"><AiOutlineShoppingCart className='fill-black text-xl mx-2'/><p>Shopping Cart</p></li>
        </div>
