@@ -53,11 +53,14 @@ display: flex;
   margin-top: 4rem;
   justify-content: center;
   gap: 10px;
-  
+ 
 }
 
 .cateogory-items{
   padding-right: 10px;
+  cursor:pointer;
+  
+  
 }
 
 .search-container{
@@ -110,6 +113,11 @@ overflow: hidden;
 }
 
 
+.card-id{
+ flex-wrap: nowrap; 
+ cursor: pointer;
+}
+
 
 .footer-section{
   display:flex;
@@ -119,6 +127,7 @@ overflow: hidden;
 .footer-item {
   width: 100%;
 }
+
 .footer-ul{
   margin-top: 10px;
 }

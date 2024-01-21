@@ -25,20 +25,20 @@ const Header = () => {
        <div className="right-icons">
        <li className="right-item"><CgProfile className="fill-black text-xl mx-2"/><Link href='pages/Login'><p>Sign Up</p></Link></li>
        <li className="right-item"><AiOutlineHeart className='fill-black text-xl mx-2'/><p>Favorites</p></li>
-       <li className="right-item"><AiOutlineShoppingCart className='fill-black text-xl mx-2'/><p>Shopping Cart</p></li>
+       <li className="right-item"><AiOutlineShoppingCart className='fill-black text-xl mx-2'/><p>Shopping Cart (0)</p></li>
        </div>
     </main>
     <section className=" relative flex-col">
         <ul className="cateogories">
-            <li className="cateogory-items">Men</li>
-            <li className="cateogory-items">Women</li>
-            <li className="cateogory-items">Unisex</li>
-            <li className="cateogory-items">Baby</li>
-            <li className="cateogory-items">Kids</li>
-            <li className="cateogory-items">Beauty</li>
-            <li className="cateogory-items">Sport</li>
-            <li className="cateogory-items">Sale</li>
-            <li className="cateogory-items">Services</li>
+            <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Men'>Men</Link></li>
+            <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Women'>Women</Link></li>
+            <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Unisex'>Unisex</Link></li>
+            <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Baby'>Baby</Link></li>
+            <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Kids'>Kids</Link></li>
+            <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Beauty'>Beauty</Link></li>
+            <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Sport'>Sport</Link></li>
+            <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Sale'>Sale</Link></li>
+            <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Services'>Services</Link></li>
        </ul>
 
        

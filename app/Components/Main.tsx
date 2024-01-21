@@ -79,7 +79,7 @@ return(
 <div className='item'>
 <a>
         <div className='flex justify-center flex-col m-2'>
-            <h2 className='flex justify-center text-sm'>Children</h2>
+            <h2 className='flex justify-center text-sm'>Kids</h2>
             <p className='text-sm'>Clothes</p>
         </div>
     </a>
