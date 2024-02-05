@@ -45,6 +45,7 @@ display: flex;
   list-style: none;
   margin-right: 15px;
   display: flex;
+  
  align-items: center;
 }
 
@@ -100,11 +101,8 @@ overflow: hidden;
 }
 .popular-list{
   margin-top: 2rem;
+  display: flex;
   
-}
-.item {
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .featured-products{
@@ -114,8 +112,9 @@ overflow: hidden;
 
 
 .card-id{
- flex-wrap: nowrap; 
- cursor: pointer;
+position: relative;
+ margin-top: 13px;
+
 }
 
 
