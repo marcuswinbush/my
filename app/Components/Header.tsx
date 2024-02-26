@@ -34,7 +34,6 @@ const Header = () => {
             <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Women'>Women</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Unisex'>Unisex</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Baby'>Baby</Link></li>
-            <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Kids'>Kids</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Beauty'>Beauty</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Sport'>Sport</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='pages/Sale'>Sale</Link></li>

@@ -24,7 +24,6 @@ return(
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Men'>Men</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Women'>Women</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Baby'>Baby</Link></li>
-            <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Kids'>Kids</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Beauty'>Beauty</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Sport'>Sport</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Sale'>Sale</Link></li>
@@ -39,10 +38,15 @@ return(
     <div className="grid grid-cols-4 relative gap-x-6  mt-5 ">
 
     <div className="card-id">
-        <img className="cursor-pointer" src="/Images/top.jpg"></img>
+        <img className="cursor-pointer" src="/Images/fall1.jpeg"></img>
     <div className="py-3">
-        <p className='text-sm  cursor-pointer hover:underline inline'>Loose fit shirt</p>
-        <p className='text-sm'>$ 15.00</p>
+        <p className='text-sm  cursor-pointer hover:underline inline'> Women Slim Fit Jeans</p>
+        <div className='flex gap-3'>
+        <p className='text-sm text-red-500 '>$ 15.45</p>
+        <p className='text-sm line-through'>$ 25.99</p>
+        </div>
+        
+        
     
     </div>
     
@@ -51,18 +55,21 @@ return(
     </div>
 
     <div className="card-id">
-        <img className="cursor-pointer" src='/Images/pants.jpg'></img>
+        <img className="cursor-pointer" src='/Images/fall2.jpeg'></img>
        
      <div className="py-3">
-        <p className='text-sm  cursor-pointer hover:underline inline'>Fitted Dress Shirt</p>
-        <p className='text-sm'>$ 35.00</p>
+        <p className='text-sm  cursor-pointer hover:underline inline'>Tan Wool Scarf</p>
+        <div className='flex gap-3'>
+        <p className='text-sm text-red-500 '>$ 17.99</p>
+        <p className='text-sm line-through'>$ 39.79</p>
+        </div>
     
     </div>
         
     </div>
    
     <div className="card-id">
-        <img className="cursor-pointer" src='/Images/summer.jpg'></img>
+        <img className="cursor-pointer" src='/Images/fall3.jpeg'></img>
     
     <div className="py-3">
         <p className='text-sm  cursor-pointer hover:underline inline'>Casual Shirt</p>
@@ -72,7 +79,7 @@ return(
     </div>
     
     <div className='card-id'>
-        <img className="cursor-pointer" src='/Images/shirt.jpg'></img>
+        <img className="cursor-pointer" src='/Images/fall4.jpeg'></img>
     
         <div className="py-3">
             <p className='text-sm  cursor-pointer hover:underline inline'>Long Sleeve Button-Down</p>
@@ -83,7 +90,7 @@ return(
     </div>
     
     <div className='card-id'>
-         <img className="cursor-pointer" src='/Images/pants-2.jpg'></img>
+         <img className="cursor-pointer" src='/Images/fall5.webp'></img>
         
         <div className="py-3">
             <p className='text-sm  cursor-pointer hover:underline inline'>Slim Jeans</p>
@@ -94,7 +101,7 @@ return(
     </div>
     
     <div className='card-id'>
-        <img className="-w-auto cursor-pointer" src='/Images/shirt2.jpg'></img>
+        <img className="-w-auto cursor-pointer" src='/Images/fall6.jpeg'></img>
         
         <div className="py-3">
             <p className='text-sm  cursor-pointer hover:underline inline'>Long Sleeve</p>
@@ -105,7 +112,7 @@ return(
     </div>
 
     <div className='card-id'>
-        <img className="w-auto" src='/Images/jeanjacket.jpeg'></img>
+        <img className="w-auto" src='/Images/fall7.webp'></img>
         
         <div className="py-3">
             <p className='text-sm  cursor-pointer hover:underline inline'>Jean Jacket</p>
@@ -116,7 +123,7 @@ return(
     </div>
 
     <div className='card-id'>
-        <img className="" src='/Images/jacket.jpeg'></img>
+        <img className="" src='/Images/fall8.jpeg'></img>
         
         <div className="py-3">
             <p className='text-sm  cursor-pointer hover:underline inline'>Tacoma Jacket</p>

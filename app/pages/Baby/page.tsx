@@ -25,8 +25,7 @@ return(
         <ul className="cateogories">
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Men'>Men</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Women'>Women</Link></li>
-            <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Baby'>Baby</Link></li>
-            <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Kids'>Kids</Link></li>
+            <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Unisex'>Unisex</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Beauty'>Beauty</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Sport'>Sport</Link></li>
             <li className="pr-3 cursor-pointer hover:underline"><Link href='/pages/Sale'>Sale</Link></li>
@@ -41,10 +40,10 @@ return(
     <div className="grid grid-cols-4 relative gap-x-6  mt-5 ">
 
     <div className="card-id">
-        <img className="cursor-pointer" src="/Images/top.jpg"></img>
+        <img className="cursor-pointer" src="/Images/baby1.jpeg"></img>
     <div className="py-3">
-        <p className='text-sm  cursor-pointer hover:underline inline'>Loose fit shirt</p>
-        <p className='text-sm'>$ 15.00</p>
+        <p className='text-sm  cursor-pointer hover:underline inline'>Sunglasses</p>
+        <p className='text-sm'>$ 25.00</p>
     
     </div>
     
@@ -53,42 +52,42 @@ return(
     </div>
 
     <div className="card-id">
-        <img className="cursor-pointer" src='/Images/pants.jpg'></img>
+        <img className="cursor-pointer" src='/Images/baby2.jpeg'></img>
        
      <div className="py-3">
-        <p className='text-sm  cursor-pointer hover:underline inline'>Fitted Dress Shirt</p>
-        <p className='text-sm'>$ 35.00</p>
+        <p className='text-sm  cursor-pointer hover:underline inline'> Short Overalls</p>
+        <p className='text-sm'>$ 29.99</p>
     
     </div>
         
     </div>
    
     <div className="card-id">
-        <img className="cursor-pointer" src='/Images/summer.jpg'></img>
+        <img className="cursor-pointer" src='/Images/baby3.jpeg'></img>
     
     <div className="py-3">
-        <p className='text-sm  cursor-pointer hover:underline inline'>Casual Shirt</p>
-        <p className='text-sm'>$ 24.00</p>
+        <p className='text-sm  cursor-pointer hover:underline inline'>Striped Shirt</p>
+        <p className='text-sm'>$ 15.00</p>
     
     </div>   
     </div>
     
     <div className='card-id'>
-        <img className="cursor-pointer" src='/Images/shirt.jpg'></img>
+        <img className="cursor-pointer" src='/Images/baby4.webp'></img>
     
         <div className="py-3">
-            <p className='text-sm  cursor-pointer hover:underline inline'>Long Sleeve Button-Down</p>
-            <p className='text-sm'>$ 39.00</p>
+            <p className='text-sm  cursor-pointer hover:underline inline'>Pink Stylish Hat</p>
+            <p className='text-sm'>$ 20.00</p>
         
         </div>
 
     </div>
     
     <div className='card-id'>
-         <img className="cursor-pointer" src='/Images/pants-2.jpg'></img>
+         <img className="cursor-pointer" src='/Images/baby5.webp'></img>
         
         <div className="py-3">
-            <p className='text-sm  cursor-pointer hover:underline inline'>Slim Jeans</p>
+            <p className='text-sm  cursor-pointer hover:underline inline'>Sweater</p>
             <p className='text-sm'>$ 25.00</p>
         
         </div>
@@ -96,18 +95,18 @@ return(
     </div>
     
     <div className='card-id'>
-        <img className="-w-auto cursor-pointer" src='/Images/shirt2.jpg'></img>
+        <img className="-w-auto cursor-pointer" src='/Images/baby6.jpeg'></img>
         
         <div className="py-3">
-            <p className='text-sm  cursor-pointer hover:underline inline'>Long Sleeve</p>
-            <p className='text-sm'>$ 27.00</p>
+            <p className='text-sm  cursor-pointer hover:underline inline'>Baby Coat</p>
+            <p className='text-sm'>$ 22.00</p>
     
         </div>
     
     </div>
 
     <div className='card-id'>
-        <img className="w-auto" src='/Images/jeanjacket.jpeg'></img>
+        <img className="w-auto" src='/Images/baby7.jpeg'></img>
         
         <div className="py-3">
             <p className='text-sm  cursor-pointer hover:underline inline'>Jean Jacket</p>
@@ -118,7 +117,7 @@ return(
     </div>
 
     <div className='card-id'>
-        <img className="" src='/Images/jacket.jpeg'></img>
+        <img className="" src='/Images/baby8.webp'></img>
         
         <div className="py-3">
             <p className='text-sm  cursor-pointer hover:underline inline'>Tacoma Jacket</p>
