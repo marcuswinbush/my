@@ -40,7 +40,7 @@ return(
     <div className="card-id">
         <img className="cursor-pointer" src="/Images/fall1.jpeg"></img>
     <div className="py-3">
-        <p className='text-sm  cursor-pointer hover:underline inline'> Women Slim Fit Jeans</p>
+        <p className='text-sm  cursor-pointer hover:underline inline'> Women&apos;s Slim Fit Jeans</p>
         <div className='flex gap-3'>
         <p className='text-sm text-red-500 '>$ 15.45</p>
         <p className='text-sm line-through'>$ 25.99</p>
@@ -69,11 +69,15 @@ return(
     </div>
    
     <div className="card-id">
-        <img className="cursor-pointer" src='/Images/fall3.jpeg'></img>
+        <img className="cursor-pointer" src='/Images/fall9.jpeg'></img>
     
     <div className="py-3">
-        <p className='text-sm  cursor-pointer hover:underline inline'>Casual Shirt</p>
-        <p className='text-sm'>$ 24.00</p>
+        <p className='text-sm  cursor-pointer hover:underline inline'>Beanie + Scarf Set</p>
+        <div className='flex gap-3'>
+        <p className='text-sm text-red-500 '>$ 25.75</p>
+        <p className='text-sm line-through'>$ 49.99</p>
+        </div>
+
     
     </div>   
     </div>
@@ -82,8 +86,11 @@ return(
         <img className="cursor-pointer" src='/Images/fall4.jpeg'></img>
     
         <div className="py-3">
-            <p className='text-sm  cursor-pointer hover:underline inline'>Long Sleeve Button-Down</p>
-            <p className='text-sm'>$ 39.00</p>
+            <p className='text-sm  cursor-pointer hover:underline inline'> Wool Blend Jacket</p>
+            <div className='flex gap-3'>
+        <p className='text-sm text-red-500 '>$ 30.99</p>
+        <p className='text-sm line-through'>$ 45.79</p>
+        </div>
         
         </div>
 
@@ -93,8 +100,11 @@ return(
          <img className="cursor-pointer" src='/Images/fall5.webp'></img>
         
         <div className="py-3">
-            <p className='text-sm  cursor-pointer hover:underline inline'>Slim Jeans</p>
-            <p className='text-sm'>$ 25.00</p>
+            <p className='text-sm  cursor-pointer hover:underline inline'>Men&apos;s Long Overcoat</p>
+            <div className='flex gap-3'>
+            <p className='text-sm text-red-500 '>$ 49.99</p>
+            <p className='text-sm line-through'>$ 70.00</p>
+        </div>
         
         </div>
     
@@ -104,31 +114,39 @@ return(
         <img className="-w-auto cursor-pointer" src='/Images/fall6.jpeg'></img>
         
         <div className="py-3">
-            <p className='text-sm  cursor-pointer hover:underline inline'>Long Sleeve</p>
-            <p className='text-sm'>$ 27.00</p>
+            <p className='text-sm  cursor-pointer hover:underline inline'>Faux Jacket</p>
+            <div className='flex gap-3'>
+            <p className='text-sm text-red-500 '>$ 50.87</p>
+            <p className='text-sm line-through'>$ 65.90</p>
+        </div>
     
         </div>
     
     </div>
 
     <div className='card-id'>
-        <img className="w-auto" src='/Images/fall7.webp'></img>
+        <img className="w-auto cursor-pointer" src='/Images/fall7.webp'></img>
         
         <div className="py-3">
-            <p className='text-sm  cursor-pointer hover:underline inline'>Jean Jacket</p>
-            <p className='text-sm'>$ 45.00</p>
+            <p className='text-sm  cursor-pointer hover:underline inline'> Women&apos;s Vest Jacket</p>
+            <div className='flex gap-3'>
+            <p className='text-sm text-red-500 '>$ 40.57</p>
+            <p className='text-sm line-through'>$ 50.90</p>
+        </div>
     
         </div>
     
     </div>
 
     <div className='card-id'>
-        <img className="" src='/Images/fall8.jpeg'></img>
+        <img className="w-auto cursor-pointer" src='/Images/fall8.jpeg'></img>
         
         <div className="py-3">
-            <p className='text-sm  cursor-pointer hover:underline inline'>Tacoma Jacket</p>
-            <p className='text-sm'>$ 35.00</p>
-    
+            <p className='text-sm  cursor-pointer hover:underline inline'>Women&apos;s Long Overcoat</p>
+            <div className='flex gap-3'>
+            <p className='text-sm text-red-500 '>$ 53.25</p>
+            <p className='text-sm line-through'>$ 70.00</p>
+        </div>
         </div>
     
     </div>
