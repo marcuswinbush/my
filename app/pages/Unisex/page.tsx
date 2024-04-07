@@ -105,7 +105,7 @@ const Unisex = () => {
             </div>
         
             <div className='card-id'>
-                <img className="w-auto" src='/Images/coat.webp'></img>
+                <img className="w-auto cursor-pointer" src='/Images/coat.webp'></img>
                 
                 <div className="py-3">
                     <p className='text-sm  cursor-pointer hover:underline inline'>Trench Coat</p>
@@ -116,7 +116,7 @@ const Unisex = () => {
             </div>
         
             <div className='card-id'>
-                <img className="" src='/Images/dress2.webp'></img>
+                <img className=" cursor-pointer" src='/Images/dress2.webp'></img>
                 
                 <div className="py-3">
                     <p className='text-sm  cursor-pointer hover:underline inline'>White Dress</p>

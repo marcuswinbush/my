@@ -13,7 +13,7 @@ return(
 <div className='image-div'>
 <img className="bg-cover" src='/Images/fall.png' alt='Fall Collection'></img>
 <div className='button-container'>
-    <button className=' bg-white hover:bg-white/90 rounded-sm p-1'>Shop Now</button>
+    <button className='md: bg-white hover:bg-white/90 rounded-sm p-1 absolute  left-1/2  transform -translate-x-1/2 -translate-y-16 hidden '>Shop Now</button>
     </div>
 </div>
 <div className='popular-list'>
@@ -23,11 +23,12 @@ return(
 </div>
 
 <div className='featured-products'>
-<div className='image-div'>
+< div className='image-div'>
+
 <img className="bg-cover" src='/Images/discount-ad.png' alt='Fall Collection'></img>
-<div className='button-container'>
-    <button className=' bg-white hover:bg-white/90 rounded-sm p-1'>Shop Now</button>
-    </div>
+<button className=' bg-white hover:bg-white/90 rounded-sm p-1 absolute  left-1/2  transform -translate-x-1/2 -translate-y-16 '>Shop Now</button>
+    
+
 </div>
 
 </div>

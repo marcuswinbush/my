@@ -14,6 +14,7 @@
   @apply flex justify-end;
 }
 
+
 .left-icons{
 display: flex;
 }
@@ -22,30 +23,12 @@ display: flex;
   display: inline-block;
   font-size: 14px;
 }
-@media screen and (max-width: 1264px) { 
-  .left-item{
-    width: 60%
-  }
-  
-}
 
-@media screen and (max-width: 1089px) {
-  .left-item{
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 963px) {
-  .right-item{
-    
-  }
-}
 
 .right-item{
   list-style: none;
   margin-right: 15px;
   display: flex;
-  
  align-items: center;
 }
 
@@ -56,6 +39,17 @@ display: flex;
   gap: 10px;
  
 }
+.icon{
+  width:100%;
+}
+
+@media screen and  (max-width: 768px) {
+  .right-item{
+   margin-right: 0px;
+  }
+}
+  
+
 
 .cateogory-items{
   padding-right: 10px;
@@ -78,27 +72,17 @@ justify-content: center;
 
 }
 .image-div{
-  z-index: 1;
   position: static;
   max-width: 870px;
   margin-top: 5rem;
   align-items: center;
-overflow: hidden;
-}
-
-.button-container{
-  width: 843px;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translateY(-50px);
-  
-}
-
-.button-container:hover{
+  overflow: hidden;
   cursor: pointer;
 }
+
+
+
+
 .popular-list{
   margin-top: 2rem;
   display: flex;
@@ -112,8 +96,8 @@ overflow: hidden;
 
 
 .card-id{
-position: relative;
- margin-top: 13px;
+  position: relative;
+  margin-top: 13px;
 
 }
 

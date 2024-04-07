@@ -4,6 +4,7 @@
 import { useState } from 'react';
 import { FaEye } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
+import {IoArrowBack} from "react-icons/io5";
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState('');
@@ -18,8 +19,12 @@ const Login: React.FC = () => {
   return (
     <div className='bg-gray-100 min-h-screen flex items-center justify-center
     '>
+  
         <div className='bg-red-100 flex rounded-2xl shadow-lg max-w-3xl p-3'>
             
+         
+
+
             
             <div className='sm:w-1/2 px-16'>
             <h2 className='font-bold text-2xl text-[#501616]'>Login</h2>

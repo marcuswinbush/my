@@ -107,7 +107,7 @@ return (
     </div>
 
     <div className='card-id'>
-        <img className="w-auto" src='/Images/jeanjacket.jpeg'></img>
+        <img className="w-auto cursor-pointer" src='/Images/jeanjacket.jpeg'></img>
         
         <div className="py-3">
             <p className='text-sm  cursor-pointer hover:underline inline'>Jean Jacket</p>
@@ -118,7 +118,7 @@ return (
     </div>
 
     <div className='card-id'>
-        <img className="" src='/Images/jacket.jpeg'></img>
+        <img className="w-auto cursor-pointer" src='/Images/jacket.jpeg'></img>
         
         <div className="py-3">
             <p className='text-sm  cursor-pointer hover:underline inline'>Tacoma Jacket</p>
