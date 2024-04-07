@@ -12,9 +12,6 @@ return(
 <main className='main-container'>
 <div className='image-div'>
 <img className="bg-cover" src='/Images/fall.png' alt='Fall Collection'></img>
-<div className='button-container'>
-    <button className='md: bg-white hover:bg-white/90 rounded-sm p-1 absolute  left-1/2  transform -translate-x-1/2 -translate-y-16 hidden '>Shop Now</button>
-    </div>
 </div>
 <div className='popular-list'>
 <h1 className='font-semibold text-lg'>What are you shopping for today?</h1>
@@ -26,7 +23,6 @@ return(
 < div className='image-div'>
 
 <img className="bg-cover" src='/Images/discount-ad.png' alt='Fall Collection'></img>
-<button className=' bg-white hover:bg-white/90 rounded-sm p-1 absolute  left-1/2  transform -translate-x-1/2 -translate-y-16 '>Shop Now</button>
     
 
 </div>
@@ -35,9 +31,6 @@ return(
 
 <div className='image-div'>
 <img className="bg-cover" src='/Images/img3.png' alt='Fall Collection'></img>
-<div className='button-container'>
-    <button className=' bg-white hover:bg-white/90 rounded-sm p-1'>Shop Now</button>
-    </div>
 </div>
 
 </main>
