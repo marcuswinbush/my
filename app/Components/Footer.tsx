@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 const Footer = () => {
@@ -12,28 +13,28 @@ return(
                 </h2>
                 <ul className="footer-ul">
                     <li>
-                       <span className="hover:underline cursor-pointer">Women </span>
+                       <span className="hover:underline cursor-pointer"><Link href='/pages/Women'>Women</Link> </span>
                     </li>
                     <li>
-                    <span className="hover:underline cursor-pointer">Men </span>
+                    <span className="hover:underline cursor-pointer"><Link href='/pages/Men'>Men</Link></span>
                     </li>
                     <li>
-                    <span className="hover:underline cursor-pointer">Divided</span>
+                    <span className="hover:underline cursor-pointer"><Link href='/pages/Unisex'>Unisex</Link></span>
                     </li>
                     <li>
-                    <span className="hover:underline cursor-pointer">Baby </span>
+                    <span className="hover:underline cursor-pointer"><Link href='/pages/Baby'>Baby</Link> </span>
                     </li>
 
                     <li>
-                    <span className="hover:underline cursor-pointer">Kids </span>
+                    <span className="hover:underline cursor-pointer"><Link href='/pages/Kids'>Kids</Link> </span>
                     </li>
 
                     <li> 
-                    <span className="hover:underline cursor-pointer">Sport </span>
+                    <span className="hover:underline cursor-pointer"><Link href='/pages/Sport'>Sport</Link> </span>
                     </li>
 
                     <li>
-                    <span className="hover:underline cursor-pointer">Beauty </span>
+                    <span className="hover:underline cursor-pointer"><Link href='/pages/Beauty'>Beauty</Link> </span>
                     </li>
                 </ul>
                 </nav>

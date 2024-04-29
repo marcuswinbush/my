@@ -13,8 +13,8 @@ import Link from "next/link";
 
 const Baby = () => {
 return(
-<div className="bg-white  justify-center p-5" >
-    <main className="w-full flex " >
+<div className="bg-white   p-5" >
+    <main className="w-full flex justify-center" >
        <div className="flex ">
        <li className="right-item"><CgProfile className="fill-black text-xl mx-2 "/><Link href='/'><p>Home</p></Link></li>
        <li className="right-item"><AiOutlineHeart className='fill-black text-xl mx-2'/><p>Favorites</p></li>
@@ -109,8 +109,8 @@ return(
         <img className="w-auto cursor-pointer" src='/Images/baby7.jpeg'></img>
         
         <div className="py-3">
-            <p className='text-sm  cursor-pointer hover:underline inline'>Jean Jacket</p>
-            <p className='text-sm'>$ 45.00</p>
+            <p className='text-sm  cursor-pointer hover:underline inline'>Gray Onesie</p>
+            <p className='text-sm'>$ 30.00</p>
     
         </div>
     
@@ -120,7 +120,7 @@ return(
         <img className="cursor-pointer" src='/Images/baby8.webp'></img>
         
         <div className="py-3">
-            <p className='text-sm  cursor-pointer hover:underline inline'>Tacoma Jacket</p>
+            <p className='text-sm  cursor-pointer hover:underline inline'>Cable Knit Sweater</p>
             <p className='text-sm'>$ 35.00</p>
     
         </div>

@@ -12,8 +12,8 @@ return(
 
     
     
-        <div className="bg-white  justify-center p-5" >
-            <main className="w-full flex " >
+        <div className="bg-white   p-5" >
+            <main className="w-full justify-center flex " >
                <div className="flex ">
                <li className="right-item"><CgProfile className="fill-black text-xl mx-2 "/><Link href='/'><p>Home</p></Link></li>
                <li className="right-item"><AiOutlineHeart className='fill-black text-xl mx-2'/><p>Favorites</p></li>
